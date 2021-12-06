@@ -1,0 +1,57 @@
+body{
+  margin: 0px;
+  height: 100vh;
+  font-family: 'Syncopate', sans-serif;
+  display: grid;
+  grid-template-rows: 15% 85%;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    font-size: 20px;
+    grid-row: 1;
+    ul{
+      display: flex;
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+    }
+    #home{
+      margin-right: 40px;
+    }
+    #menu{
+      width: 400px;
+      justify-content: space-between;
+      margin-right: 40px;
+      a{
+        li:nth-child(2){
+        background-color: #b5d2ff;
+      }
+    }
+    }
+    #sns{
+      width: 60px;
+      justify-content: space-between;
+    }
+  }
+  article{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    img{
+      width: 60vw;
+      margin: 0px 0px 0px 40px;
+    }
+    ul{
+      margin: 0px 20px 0px 0px;
+      font-family: 'Gowun Dodum', sans-serif;
+      font-size: 2vw;
+      li{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
