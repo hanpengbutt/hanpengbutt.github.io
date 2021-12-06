@@ -1,0 +1,32 @@
+body{
+  margin: 0px;
+  height: 100vh;
+  overflow: hidden;
+  touch-action: none;
+  font-family: 'Syncopate', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  #greeting{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 8vw;
+    text-align: center;
+  }
+  #icon{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    div{
+      text-align: center;
+      font-size: 3vw;
+    }
+    img{
+      width: 350px;
+      border: 4px black solid;
+      border-radius: 50%
+    }
+  }
+}
